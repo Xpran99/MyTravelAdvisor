@@ -1,0 +1,51 @@
+.modal-dialog {
+    height: 50%;
+    width: 50%;
+    margin: auto
+}
+
+.modal-header {
+    color: white;
+    background-color: #007bff
+}
+
+textarea {
+    border: none;
+    box-shadow: none !important;
+    -webkit-appearance: none;
+    outline: 0px !important
+}
+
+.openmodal {
+    margin-left: 35%;
+    width: 25%;
+    margin-top: 25%
+}
+
+.icon1 {
+    color: #007bff
+}
+
+a {
+    margin: auto
+}
+
+input {
+    color: #007bff
+}
+
+.vhhh
+    {
+        /* font-size: 15rem; */
+	    text-align: center;
+      /* height:20vh; */
+      /* line-height: 9vh; */
+	    color: #fcedd8;
+	    /* background: #d52e3f; */
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 1;
+      text-shadow: 
+      5px 5px 10px #eb452b, 
+      0px 0px 10px #efa032, 
+      0px 0px 10px #c11a2b;
+    }

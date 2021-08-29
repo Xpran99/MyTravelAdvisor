@@ -1,0 +1,63 @@
+
+.footer-distributed{
+	/* background: grey; */
+	background-image: repeating-linear-gradient(9deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),repeating-linear-gradient(109deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),repeating-linear-gradient(225deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),linear-gradient(90deg, hsla(22,0%,28%,1),hsla(37,0%,28%,1));
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 30px 10px;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 10px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color: brown;
+	padding-left: 500px;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 10px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}

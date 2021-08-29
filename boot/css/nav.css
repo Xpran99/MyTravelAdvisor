@@ -1,0 +1,46 @@
+.header-nav
+{
+    /* width: 100%; */
+    /* background-color: rgba(0,0,0,0.2); */
+    /* background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, rgb(18, 105, 233),rgb(166, 255, 155)); */
+    /* background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, rgb(18, 105, 233),rgb(166, 255, 155)); */
+    background-image: repeating-linear-gradient(9deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),repeating-linear-gradient(109deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),repeating-linear-gradient(225deg, hsl(303,0%,10%) 0px, hsl(303,0%,10%) 10px,transparent 10px, transparent 12px),linear-gradient(90deg, hsla(22,0%,28%,1),hsla(37,0%,28%,1));
+}
+/* .header-nav ul{
+    text-align: center;
+}
+.header-nav ul li
+{
+    list-style: none;
+    display:inline-block;
+}
+.header-nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 50;
+    padding: 25px;
+    transition: all ease 0.5s;
+} */
+
+
+/* .header-nav ul li a:hover
+{
+    background-color: #211b4385;
+} */
+
+.city
+{
+    /* background-color: rgba(0,0,0,0.9); */
+    background-color: rgba(0,10,40,20.9);
+}
+.city li a
+{
+    color: black;
+    display: block;
+    text-align: center;
+}
