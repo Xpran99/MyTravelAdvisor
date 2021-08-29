@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: repeating-linear-gradient(9deg, hsl(303, 0%, 10%) 0px, hsl(303, 0%, 10%) 10px, transparent 10px, transparent 12px), repeating-linear-gradient(109deg, hsl(303, 0%, 10%) 0px, hsl(303, 0%, 10%) 10px, transparent 10px, transparent 12px), repeating-linear-gradient(225deg, hsl(303, 0%, 10%) 0px, hsl(303, 0%, 10%) 10px, transparent 10px, transparent 12px), linear-gradient(90deg, hsla(22, 0%, 28%, 1), hsla(37, 0%, 28%, 1));
+
+        }
+
+        .contact-parent {
+            background: #fff;
+            display: flex;
+            margin: 80px 0;
+        }
+
+        .contact-child {
+            display: flex;
+            flex: 1;
+            box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+        }
+
+        .child1 {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: #fff;
+            padding: 100px 0;
+        }
+
+        .child1 p {
+            padding-left: 20%;
+            font-size: 20px;
+            text-shadow: 0px 0px 2px #000;
+        }
+
+        .child1 p span {
+            font-size: 16px;
+            color: #9df2fd;
+        }
+
+        .child2 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .inside-contact {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .inside-contact h2 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .inside-contact h3 {
+            text-align: center;
+            font-size: 16px;
+            color: #0085e2;
+        }
+
+        .inside-contact input,
+        .inside-contact textarea {
+            width: 100%;
+            background-color: #eee;
+            border: 1px solid rgba(0, 0, 0, 0.48);
+            padding: 5px 10px;
+            margin-bottom: 20px;
+        }
+
+        .inside-contact input[type=submit] {
+            background-color: #000;
+            color: #fff;
+            transition: 0.2s;
+            border: 2px solid #000;
+            margin: 30px 0;
+        }
+
+        .inside-contact input[type=submit]:hover {
+            background-color: #fff;
+            color: #000;
+            transition: 0.2s;
+        }
+
+        @media screen and (max-width:991px) {
+            .contact-parent {
+                display: block;
+                width: 100%;
+            }
+
+            .child1 {
+                display: none;
+            }
+
+            .child2 {
+                background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+                background-size: cover;
+            }
+
+            .inside-contact input,
+            .inside-contact textarea {
+                background-color: #fff;
+            }
+        }
+
+        a.vhhh {
+            text-align: center;
+            font-size: 30px;
+            text-decoration: none;
+            color: #fcedd8;
+            font-family: 'Niconne', cursive;
+            font-weight: 1;
+            text-shadow:
+                5px 5px 10px #eb452b,
+                0px 0px 10px #efa032,
+                0px 0px 10px #c11a2b;
+        }
+    </style>
+</head>
+
+<body>
+    <center><a class="vhhh" href="index.html">myTravelAdvisor</a></center>
+    <div class="container">
+        <div class="contact-parent">
+            <div class="contact-child child1">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> Address <br />
+                    <span> Maroli
+                        <br />
+                        Mangalore, D.K
+                    </span>
+                </p>
+                <p>
+                    <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                    <span> 9987665364</span>
+                </p>
+                <p>
+                    <i class=" far fa-envelope"></i> General Support <br />
+                    <span>contact@mytraveladvisor.com</span>
+                </p>
+            </div>
+            <div class="contact-child child2">
+                <div class="inside-contact">
+                    <h2>Contact Us</h2>
+                    <h3>
+                        <span id="confirm">
+                    </h3>
+                    <p>Name *</p>
+                    <input id="txt_name" type="text" Required="required">
+                    <p>Email *</p>
+                    <input id="txt_email" type="text" Required="required">
+                    <p>Phone *</p>
+                    <input id="txt_phone" type="text" Required="required">
+                    <p>Subject *</p>
+                    <input id="txt_subject" type="text" Required="required">
+                    <p>Message *</p>
+                    <textarea id="txt_message" rows="4" cols="20" Required="required"></textarea>
+                    <input type="submit" id="btn_send" value="SEND">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

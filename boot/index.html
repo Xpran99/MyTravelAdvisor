@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-utilities.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/mycss.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" href="css/test.css">
+
+  <link rel="stylesheet" type="text/css" href="bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>myTravelAdvisor</title>
+  <link rel="icon" href="img/icon.jpeg">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark header-nav">
+    <div class="container-fluid ">
+      <a class="navbar-brand fw-bolder vhhh" href="index.html">myTravelAdvisor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: white;">
+              Cities
+            </a>
+            <ul class="dropdown-menu city" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Mangalore</a></li>
+              <li><a class="dropdown-item" href="#">Puttur</a></li>
+              <li><a class="dropdown-item" href="malpe.html">Udupi</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <!-- <li><a class="dropdown-item" href="#">More places are coming soon!!</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="feedback.html" style="color: white;">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html" style="color: white;">Contact Us</a>
+          </li>
+        </ul>
+        <ul>
+          <a href="login.html" class="btn btn-primary btn-md" tabindex="-1" role="button" aria-disabled="true">Login</a>
+          <a href="signup.html" class="btn btn-primary btn-md" tabindex="-1" role="button" aria-disabled="true">Sign
+            Up</a>
+          <a href="#" class="btn btn-primary btn-md" tabindex="-1" role="button" aria-disabled="true"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Delete Account</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="background-color: red;">
+                  <h5 class="modal-title" id="exampleModalLabel">Sorry</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  This feature is currently unavailable.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </ul>
+
+        <div>
+          <form>
+            <div class="search-box">
+              <input class="search-txt" type="text" name="" placeholder="Type here to search">
+              <a class="search-btn" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+              </a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!--         start carousel -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+          <img src="img/b2.jpg" class="d-block w-100" alt="coorg" style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <p class="fw-bolder" style="color:white;font-size: 30px; text-shadow:  2px 15px 4px black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">homestay</h5> -->
+            <p
+              style="color:white;font-size: 40px; text-shadow:  2px 15px 4px black; font: 'San Francisco', Helvetica, Arial, san-serif;">
+              Homestay</h5>
+            <p style="text-shadow:  2px 15px 4px black;">
+              ...
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/b1.jpg" class="d-block w-100" alt="Panambur" style="max-height: 500px; width: 100%;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h4 style="color:blue;text-shadow:  2px 15px 4px black;" class="fw-bolder">Hotels</h4> -->
+            <p
+              style="color:white;font-size: 40px; text-shadow:  2px 15px 4px black; font: 'San Francisco', Helvetica, Arial, san-serif;">
+              Hotels</h5>
+            <p style="text-shadow:  2px 15px 4px black;">...
+
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/b3.jpg" class="d-block w-100" alt="..." style="height: 500px; width: 100%;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h4 class="fw-bolder" style="color:black;text-shadow:  2px 15px 4px black;">And Many More...</h5> -->
+            <p
+              style="color:white;font-size: 40px; text-shadow:  2px 15px 4px black; font: 'San Francisco', Helvetica, Arial, san-serif;">
+              And Many More...</h5>
+            <p style="text-shadow:  2px 15px 4px black;"></p>
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--         end carousel -->
+
+  <!-- start Jubotron -->
+  <div class="container">
+    <div class="jumbotron grad-left">
+      <center>
+        <h3 style="color: chocolate;font-family:fantasy;">Find your destination!</h3>
+      </center>
+    </div>
+  </div>
+  <!-- end jumbotron -->
+  <br>
+
+  <!-- start card -->
+  <div class="container">
+    <div class="row">
+      <div class="card grad-right" style="width: 28rem; height: 23rem;">
+        <img src="img/crystal1.jpg" class="card-img-top" height="55%">
+        <i class="fas fa-heart" style="position: absolute; color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Crystal Home Stay
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+
+          <p class="card-text">Madikeri</p>
+          <a href="homestay.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-right" style="width: 28rem;height: 23rem;">
+        <img src="img/goldfinch.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel Goldfinch
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Mangaluru</p>
+          <a href="goldfinch.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem; height: 23rem;">
+        <img src="img/svas.webp" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red; padding-left: 400px;"></i>
+        <div class="card-body">
+
+          <h5 class="card-title">Srinivas Comforts
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text"> Bengaluru</p>
+
+          <a href="srinivas.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem;height: 23rem;">
+        <img src="img/op.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel Ocean Pearl
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Udupi</p>
+          <a href="oceanpearl.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      <div class="card grad-right" style="width: 28rem; height: 23rem;">
+        <img src="img/prashant mahal.jpg" class="card-img-top" height="55%">
+        <i class="fas fa-heart" style="position: absolute; color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel Prashanth Mahal
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+
+          <p class="card-text">Puttur</p>
+          <a href="pmahal.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-right" style="width: 28rem;height: 23rem;">
+        <img src="img/club mahindra.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Club Mahindra Resorts
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Madikeri</p>
+          <a href="clubmahindra.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem; height: 23rem;">
+        <img src="img/Samanvay Boutique Hotel.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red; padding-left: 400px;"></i>
+        <div class="card-body">
+
+          <h5 class="card-title">Samanvay Boutique Hotel
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text"> Udupi</p>
+
+          <a href="samn.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem;height: 23rem;">
+        <img src="img/sai guru comforts.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Sai Guru Comforts
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Puttur</p>
+          <a href="saiguru.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      <div class="card grad-right" style="width: 28rem; height: 23rem;">
+        <img src="img/rama.jpg" class="card-img-top" height="55%">
+        <i class="fas fa-heart" style="position: absolute; color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel Rama
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+
+          <p class="card-text">Puttur</p>
+          <a href="rama.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-right" style="width: 28rem;height: 23rem;">
+        <img src="img/madikeri heritage.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Madikeri Heritage
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Madikeri</p>
+          <a href="heriage.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem; height: 23rem;">
+        <img src="img/the windflower resort.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red; padding-left: 400px;"></i>
+        <div class="card-body">
+
+          <h5 class="card-title">The Windflower Resort
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text"> Bangalore</p>
+
+          <a href="wind.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-left" style="width: 28rem;height: 23rem;">
+        <img src="img/b1.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel Sunshine
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+
+          </h5>
+          <p class="card-text">Udupi</p>
+          <a href="sunshine.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <!-- ******* -->
+  <div class="container">
+    <div class="row">
+      <div class="card grad-right" style="width: 28rem; height: 23rem;">
+        <img src="img/beachresort.jpg" class="card-img-top" height="55%">
+        <i class="fas fa-heart" style="position: absolute; color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Marine Beach Resort
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+
+          <p class="card-text">Udupi</p>
+          <a href="marine.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <div class="card grad-right" style="width: 28rem;height: 23rem;">
+        <img src="img/whitelotus.jpg" class="card-img-top" alt="..." height="55%">
+        <i class="fas fa-heart" style="position: absolute;color: red;padding-left: 400px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Hotel White Lotus
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+            <i class="fas fa-star" style="font-size:15px; color: goldenrod; float: right;"></i>
+          </h5>
+          <p class="card-text">Mangaluru</p>
+          <a href="lotus.html" class="btn btn-primary">Check In</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- end card -->
+
+
+  <br><br><br><br><br><br>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <a class="navbar-brand fw-bolder vhhh" href="index.html">myTravelAdvisor</a>
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Feedback</a>
+        ·
+        <a href="#">Faq</a>
+        ·
+        <a href="#">Contact</a>
+        .
+        <a href="feedback.html">Feedback</a>
+      </p>
+
+
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+
+      </div>
+
+    </div>
+    <p class="footer-company-name">MyTripAdvisor © 2021</p>
+  </footer>
+
+
+  <!-- ******************************script******************************************* -->
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
